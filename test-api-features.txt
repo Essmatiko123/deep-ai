@@ -1,0 +1,56 @@
+# API Selection and Management Test
+
+This file demonstrates the new API selection and management features.
+
+## API Features Added:
+
+### 1. API Selection
+- Single API selector in chat interface
+- No more duplicate dropdowns
+- Clear visual indicators for API types
+
+### 2. API Management
+- Edit all APIs (default, custom, local)
+- Add new APIs of any type
+- Enable/disable APIs
+- Save button in settings
+
+### 3. Structured Responses
+- Code block detection and formatting
+- JSON pretty-printing
+- List formatting
+- Copy-to-clipboard functionality
+
+## Test Scenarios:
+
+### Test API Selection:
+1. Click "Manage APIs" button
+2. Try switching between different APIs
+3. Add a custom API
+4. Edit a default API
+5. Save settings
+
+### Test Structured Responses:
+Ask the AI to respond with:
+- Code blocks in different languages
+- JSON data
+- Numbered lists
+- Mixed content
+
+Example prompt:
+"Show me a JavaScript function, some JSON data, and a numbered list of steps."
+
+## API Endpoints:
+- Pollinations: https://text.pollinations.ai (default)
+- OpenAI: https://api.openai.com/v1/chat/completions
+- Mistral: https://api.mistral.ai/v1/chat/completions
+- Claude: https://api.anthropic.com/v1/messages
+
+## Features Working:
+✅ Endpoint error fixed
+✅ Duplicate dropdown removed
+✅ Save button added to settings
+✅ All APIs editable
+✅ Structured responses working
+✅ Memory integration
+✅ File attachment support

@@ -1,0 +1,10 @@
+This is a test file to verify memory functionality.
+
+The AI should remember this content when I reference it later in the conversation.
+
+Key points to remember:
+- This is a test file
+- It contains information about memory testing
+- The AI should be able to reference this content
+
+End of test file.

@@ -1,0 +1,67 @@
+# Structured Response Test
+
+This is a test file to demonstrate the new structured response features.
+
+## Code Examples
+
+Here's a JavaScript function:
+
+```javascript
+function calculateTotal(items) {
+  return items.reduce((sum, item) => sum + item.price, 0);
+}
+
+const cart = [
+  { name: 'Laptop', price: 999 },
+  { name: 'Mouse', price: 25 }
+];
+
+console.log(calculateTotal(cart)); // 1024
+```
+
+## Python Example
+
+```python
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+# Print first 10 Fibonacci numbers
+for i in range(10):
+    print(fibonacci(i))
+```
+
+## JSON Data
+
+```json
+{
+  "user": {
+    "id": 123,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "preferences": {
+      "theme": "dark",
+      "notifications": true
+    }
+  },
+  "lastLogin": "2024-01-15T10:30:00Z"
+}
+```
+
+## Lists
+
+### Steps to implement:
+1. Create the component structure
+2. Add state management
+3. Implement API integration
+4. Add error handling
+5. Test the functionality
+
+### Features needed:
+- Real-time updates
+- Error boundaries
+- Performance optimization
+- Accessibility features
+
+The AI should be able to parse and display this content in a structured format with code highlighting and proper formatting.
